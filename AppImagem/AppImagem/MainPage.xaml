@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppImagem.MainPage">
+
+    <StackLayout>
+        <Label Text="Galeria" HorizontalOptions="Center" VerticalOptions="Start" FontSize="Large" FontAttributes="Bold" TextColor="#191970"/>
+        <Image Source="imagem1" Aspect="Fill" Margin="20" VerticalOptions="Center" BackgroundColor="Transparent" x:Name="foto"/>        
+        <Button BackgroundColor="Blue" TextColor="White" Text="Próxima Imagem" FontAttributes="Bold" x:Name="btnMudar" Clicked="btnMudar_Clicked"/>
+        <Button BackgroundColor="Blue" TextColor="White" Text="Imagem Anterior" FontAttributes="Bold" x:Name="btnVoltar" Clicked="btnImagem2_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
